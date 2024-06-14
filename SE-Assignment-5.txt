@@ -1,0 +1,39 @@
+Visual Studio Code (VS Code) is a widely-used code editor for Windows 11, favored by web developers for its robust features and flexibility. This guide provides a comprehensive overview of installing and configuring VS Code for an optimal development experience.
+
+Installation
+To begin, download the installer by visiting the official Visual Studio Code website and clicking on the "Download for Windows" button. Once the installer (VSCodeSetup.exe) is downloaded, execute the file. Accept the license agreement presented during the installation process, select the desired installation folder, and opt for additional settings such as creating a desktop shortcut and adding VS Code to the system PATH. After completing the installation, launch VS Code.
+
+Initial Setup
+Personalizing the environment is the first step in the initial setup. Open settings by navigating to File > Preferences > Settings or pressing Ctrl+,. Change the color theme, font size, and font family to match your preferences. Next, install essential extensions by opening the Extensions view, either by clicking the Extensions icon on the Activity Bar or pressing Ctrl+Shift+X. Key extensions to install include ESLint for linting JavaScript code, Prettier for code formatting, Live Server for a local development server with live reload, Debugger for Chrome for debugging JavaScript in the Chrome browser, and GitLens for enhanced Git capabilities.
+
+User Interface Overview
+The Activity Bar, located on the left, provides access to different views such as Explorer, Search, Source Control, Run and Debug, and Extensions. The Side Bar displays context-specific panels based on the selected view from the Activity Bar, such as the file explorer and search results. The Editor Group is the central area where code editing occurs, supporting multiple editor groups for split views. The Status Bar, situated at the bottom, shows details about the current file, errors, warnings, Git branch, language mode, and more.
+
+Command Palette
+The Command Palette is a powerful tool for accessing various commands and features quickly. Open it by pressing Ctrl+Shift+P or F1. Use it for tasks such as changing settings, running tasks, installing extensions, and more.
+
+Extensions
+Extensions add new features and capabilities to VS Code, making it a highly customizable editor. Use the Extensions view (Ctrl+Shift+X) to search for and install extensions. Manage installed extensions by viewing them in the Extensions view, and disable or uninstall as needed for a streamlined development environment.
+
+Integrated Terminal
+To open the integrated terminal, press `Ctrl+`` or select View > Terminal from the menu. The integrated terminal allows you to run command-line tools directly within VS Code and supports multiple terminal instances and various shell types (e.g., Command Prompt, PowerShell, Git Bash).
+
+File and Folder Management
+Creating new files and folders is simple: right-click in the Explorer view and select New File or New Folder. To open existing files and folders, use File > Open File or File > Open Folder, or drag and drop files or folders into the editor. Navigate between files using the Explorer view or quickly open files by pressing Ctrl+P and typing their names.
+
+Settings and Preferences
+Access settings through File > Preferences > Settings or Ctrl+,. Customize VS Code’s behavior by adjusting themes, font sizes, and keyboard shortcuts to tailor the editor to your workflow.
+
+Debugging
+To set up debugging, open the Debug view by pressing Ctrl+Shift+D and configure debugging by creating a launch.json file when prompted. Start a debugging session by setting breakpoints by clicking in the gutter next to line numbers and starting debugging with the green play button in the Debug view or pressing F5. Key features include using breakpoints to pause execution, watching variables to monitor their values, viewing the call stack to trace execution flow, and stepping through code to inspect and debug.
+
+Using Source Control (Git)
+Integrate Git by opening the Source Control view (Ctrl+Shift+G) and initializing a Git repository by clicking Initialize Repository. To make commits, stage changes by clicking the plus icon next to the files, enter a commit message, and click the checkmark icon to commit. Push changes to remote repositories by adding a remote repository using the terminal (git remote add origin <repository-URL>) and pushing changes using the Source Control view’s push command or git push in the terminal.
+
+
+
+
+
+
+
+
